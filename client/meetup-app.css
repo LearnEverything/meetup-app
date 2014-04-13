@@ -1,1 +1,68 @@
-/* CSS declarations go here */
+
+.container{
+	width: 60%;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+div#wrapperHeader {
+	background: url(images/mets1.png) repeat  top center;
+	text-align: center;
+}
+div#wrapperHeader div#header {
+	width: 100%;
+	height: 280px;
+	margin: 0 auto;
+	
+}
+div#wrapperHeader div#header img{
+	width: 1000px;
+	height: 280px;
+	margin:0 auto;
+}
+
+#fancy{
+ 	border: 0;
+ 	top: 0px;
+    height: 2px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+  
+}
+#footertext{
+	width: 500px;
+	height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #ccc;
+	position: relative;
+
+}
+#footer{
+	height: 60px;
+	width: 100%;
+	overflow: hidden;
+	padding: 5px 5px;
+	position: absolute;
+	bottom: 0;
+	-webkit-transition: all 500ms ease;
+	moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+#footer:hover{
+	height:150px;
+	
+
+}
+#greets{
+	color: white;
+	background-color: black;
+	width: 420px;
+	margin-left: auto;
+	margin-right: auto;
+}
