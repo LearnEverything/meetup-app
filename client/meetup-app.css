@@ -1,13 +1,15 @@
 
 .container{
-	width: 60%;
+	width: 75%;
 	margin-left:auto;
 	margin-right: auto;
 	padding-top: 50px;
 }
 div#wrapperHeader {
-	background: url(images/mets1.png) repeat  top center;
+	background: url(images/mets.png) repeat top center;
 	text-align: center;
+	margin-bottom: 75px;
+
 }
 div#wrapperHeader div#header {
 	width: 100%;
@@ -20,10 +22,12 @@ div#wrapperHeader div#header img{
 	height: 280px;
 	margin:0 auto;
 }
+#header{
+	padding-top: 120px;
+}
 
 #fancy{
  	border: 0;
- 	top: 0px;
     height: 2px;
     background: #333;
     background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
@@ -33,19 +37,21 @@ div#wrapperHeader div#header img{
   
 }
 #footertext{
-	width: 500px;
+	width: 1000px;
 	height: 250px;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: #ccc;
+	
 	position: relative;
 
 }
 #footer{
 	height: 60px;
 	width: 100%;
+	background-color: #ccc;
+	margin-right: auto;
+	margin-left: auto;
 	overflow: hidden;
-	padding: 5px 5px;
 	position: absolute;
 	bottom: 0;
 	-webkit-transition: all 500ms ease;
@@ -56,8 +62,9 @@ div#wrapperHeader div#header img{
 }
 #footer:hover{
 	height:150px;
-	
-
+	width:100%;
+	margin-right: auto;
+	margin-left: auto;
 }
 #greets{
 	color: white;
@@ -65,4 +72,6 @@ div#wrapperHeader div#header img{
 	width: 420px;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: -1px;
+
 }
