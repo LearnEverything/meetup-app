@@ -57,7 +57,7 @@ div#wrapperHeader div#header img{
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
-	position: absolute;
+	position: fixed;
 	bottom: 0;
 	-webkit-transition: all 500ms ease;
 	moz-transition: all 500ms ease;
