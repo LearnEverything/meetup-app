@@ -6,7 +6,6 @@ Template.pageLayout.events({
     var nextSlideNum = +Router.current().params.num + 1;
     console.log(nextSlideNum);
     if(nextSlideNum > maxSlide) {
-    	console.log("too big")	
     }else {
     	Router.go("/slide/" + nextSlideNum);
     }
