@@ -26,7 +26,15 @@
    
       <p class="col-md-12"><h4></h4> </P>
       {{> yield}}
-    
+
+    </div>
+    {{#unless isAtFirstSlide}}
+    <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
+    {{/unless}}
+    {{#unless isAtLastSlide}}
+    <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
+    {{/unless}}
+
     </div>
 
     <div id="footer">
@@ -37,7 +45,6 @@
         </p>
     </div>
   </div>
-</div>
 
 </template>
 
