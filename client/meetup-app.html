@@ -26,8 +26,12 @@
     <div class="col-md-9">
       {{> yield}}
     </div>
+    {{#unless isAtFirstSlide}}
     <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
+    {{/unless}}
+    {{#unless isAtLastSlide}}
     <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
+    {{/unless}}
 
     </div>
 
