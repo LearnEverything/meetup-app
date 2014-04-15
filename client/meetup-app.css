@@ -5,10 +5,13 @@
 	margin-right: auto;
 	padding-top: 50px;
 }
+#wrap{
+	min-width: 600px;
+}
 div#wrapperHeader {
 	background: url(images/mets.png) repeat top center;
 	text-align: center;
-	margin-bottom: 75px;
+	margin-bottom: 60px;
 
 }
 div#wrapperHeader div#header {
@@ -23,11 +26,11 @@ div#wrapperHeader div#header img{
 	margin:0 auto;
 }
 #header{
-	padding-top: 120px;
+	padding-top: 115px;
 }
 
 #fancy{
- 	border: 0;
+ 		border: 0;
     height: 2px;
     background: #333;
     background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
@@ -46,9 +49,10 @@ div#wrapperHeader div#header img{
 
 }
 #footer{
-	height: 60px;
+	height: 55px;
 	width: 100%;
 	background-color: #ccc;
+	border-top: 30px solid blue;
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
