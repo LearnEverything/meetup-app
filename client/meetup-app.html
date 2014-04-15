@@ -12,45 +12,48 @@
 
 <template name="pageLayout">
 <div id="wrap">
- <div id="wrapperHeader">
-  <div id="header">
+  <div id="wrapperHeader">
+    <div id="header">
                   
       <!--<img src="images/meteorlabel.gif" alt="logo"/> -->
       <h1 id="greets">HEY Meteor Pals!</h1>
   </div>
-</div>
+    </div>
 
     <hr id="fancy">
-   <div class="container">
+    <div class="container">
    
       <p class="col-md-12"><h4></h4> </P>
       {{> yield}}
 
     </div>
     {{#unless isAtFirstSlide}}
+    <div id="backPage col-md-12">
     <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
+    </div>
     {{/unless}}
     {{#unless isAtLastSlide}}
+    <div id="nextPage col-md-12">
     <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
+    </div>
     {{/unless}}
 
-    </div>
+   
 
-<<<<<<< HEAD
     <div id="footer">
       <div id="footerTopBar">
         <h1 id="footTopBar">Cool top bar</h1>
       </div>
-=======
-    <!-- <div id="footer">
->>>>>>> e138ba6b20c58ed4d9c0d85d1dfd16a0e564c1ef
       <div id ="footertext">
         <h4 class="foot col-md-12">Stuff</h4>
         <p class="col-md-12"><h5> Clarrrisssa's foooter
-          babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear</h5>
+          </h5>
         </p>
     </div>
-  </div> -->
+  </div> 
+</div>
+      
+  
 
 </template>
 
