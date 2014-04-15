@@ -6,6 +6,7 @@
 <template name="home">
   <div>
   	<h3>This is the home page</h3>
+    <h4><a href="/slide/0">Goto first slide</a></h4>
   </div>
 </template>
 
@@ -23,9 +24,11 @@
     <hr id="fancy">
    <div class="container">
     <div class="col-md-9">
-      <p>babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybearbabybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear  </P>
       {{> yield}}
     </div>
+    <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
+    <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
+
     </div>
 
     <div id="footer">
