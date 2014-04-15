@@ -1,4 +1,4 @@
-var maxSlide = 3;
+var maxSlide = 18;
 
 Template.pageLayout.events({
   "click [data-action = 'nextSlide']" : function(e, t){
@@ -6,7 +6,6 @@ Template.pageLayout.events({
     var nextSlideNum = +Router.current().params.num + 1;
     console.log(nextSlideNum);
     if(nextSlideNum > maxSlide) {
-    	console.log("too big")	
     }else {
     	Router.go("/slide/" + nextSlideNum);
     }
