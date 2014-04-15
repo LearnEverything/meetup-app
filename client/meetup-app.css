@@ -52,7 +52,8 @@ div#wrapperHeader div#header img{
 	height: 55px;
 	width: 100%;
 	background-color: #ccc;
-	border-top: 30px solid blue;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#356aa0), to(#CCC));
+	background: -moz-linear-gradient(top, #3374BC 0%, #CCC 100%);
 	margin-right: auto;
 	margin-left: auto;
 	overflow: hidden;
@@ -65,10 +66,11 @@ div#wrapperHeader div#header img{
 	transition: all 500ms ease;
 }
 #footer:hover{
-	height:150px;
+	height:200px;
 	width:100%;
 	margin-right: auto;
 	margin-left: auto;
+
 }
 #greets{
 	color: white;
