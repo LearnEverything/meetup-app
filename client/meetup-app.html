@@ -28,12 +28,12 @@
 
     </div>
     {{#unless isAtFirstSlide}}
-    <div id="backPage col-md-12">
+    <div id="backPage">
     <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
     </div>
     {{/unless}}
     {{#unless isAtLastSlide}}
-    <div id="nextPage col-md-12">
+    <div id="nextPage">
     <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
     </div>
     {{/unless}}
@@ -42,7 +42,7 @@
 
     <div id="footer">
       <div id="footerTopBar">
-        <h1 id="footTopBar">Cool top bar</h1>
+        <h1 id="footTopBar col-md-12">Cool top bar</h1>
       </div>
       <div id ="footertext">
         <h4 class="foot col-md-12">Stuff</h4>
