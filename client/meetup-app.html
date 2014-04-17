@@ -14,53 +14,47 @@
 
 <template name="pageLayout">
 
-<div id="wrap">
-  <div id="wrapperHeader">
-    <div id="header">
+  <div id="wrap">
+    <div id="wrapperHeader">
+      <div id="header">
                   
-      <!--<img src="images/meteorlabel.gif" alt="logo"/> -->
-      <h1 id="greets">Getting off the Ground With Meteor</h1>
-</div>
+        <h1 id="greets">Getting off the Ground With Meteor</h1>
   </div>
-
-<div class="container">
-   
-    <p class="clear col-md-12"><h4></h4> </P>
-    {{> yield}}
-
-</div>
-  <div class="slideChange">
-    {{#unless isAtFirstSlide}}
-    <div class="pull-left">
-      <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide">
-    
-    </div>
-    {{/unless}}
-    {{#unless isAtLastSlide}}
-    <div class="pull-right">
-    <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide">
     </div>
 
-    {{/unless}}
- 
-  </div>
+  <div class="container">
 
-<div id="footer">
-  <div id="footerTopBar">
-        <h1 id="footTopBar">Meteor Dallas</h1>
-</div>
-  <div id ="footertext">
-        <h4 class="col-md-12">Stuff</h4>
-        <p class="col-md-12">
-          <h5> Clarrrisssa's foooter</h5>
-        </p>
-  </div>
-  </div> 
+      <p class="clear col-md-12"><h4></h4></p>
+      {{> yield}}
 
-</div>
+  </div>
+    <div class="slideChange">
+      {{#unless isAtFirstSlide}}
+      <div class="pull-left">
+        <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide">
       
-  
+      </div>
+      {{/unless}}
+      {{#unless isAtLastSlide}}
+      <div class="pull-right">
+      <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide">
+      </div>
 
+      {{/unless}}
+   
+    </div>
+  <div id="footer">
+    <div id="footerTopBar">
+          <h1 id="footTopBar">Meteor Dallas</h1>
+  </div>
+    <div id ="footertext">
+          <h4 class="col-md-12">Stuff</h4>
+          <p class="col-md-12">
+            <h5> Clarrrisssa's foooter</h5>
+          </p>
+    </div>
+    </div> 
+  </div>
 </template>
 
 <template name="slide">
