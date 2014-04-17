@@ -5,7 +5,9 @@
 
 <template name="home">
   <div>
-  	<h3>This is the home page</h3>
+  	<h3>Welcome to the Dallas Meteor Introduction Part 2</h3>
+    <p>Meeting once a month at TradeStation Technologies</p>
+    <p>Todays speaker is Adam Love</p>
     <h4><a href="/slide/0">Go to first slide!</a></h4>
   </div>
 </template>
@@ -27,22 +29,6 @@
     {{> yield}}
 
 </div>
-  <div class="slideChange">
-    {{#unless isAtFirstSlide}}
-    <div class="pull-left">
-      <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide">
-    
-    </div>
-    {{/unless}}
-    {{#unless isAtLastSlide}}
-    <div class="pull-right">
-    <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide">
-    </div>
-
-    {{/unless}}
- 
-  </div>
-
 <div id="footer">
   <div id="footerTopBar">
         <h1 id="footTopBar">Meteor Dallas</h1>
