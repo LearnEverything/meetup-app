@@ -43,7 +43,7 @@ div#wrapperHeader div#header img{
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
  
 }
-#footertext{
+.footertext{
 	width: 1000px;
 	height: 250px;
 	margin-right: auto;
