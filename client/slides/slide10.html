@@ -1,3 +1,35 @@
 <template name = "slide10">
-<h1>Using helpers vs Iron-router data-context </h1>
+<h1> Tips for massaging data for spacebars templates </h1>
+<h3>Defining a transform on the collection</h3>
+<pre>Contacts = new Meteor.Collection('contacts',  {
+  transform: function(doc) { return new ModelContact(doc); }
+});
+
+ModelContact = function(doc) {
+  _.extend(this, doc);
+};
+
+_.extend(ModelContact.prototype, {
+  tenancy: function(){
+    return Tenancies.findOne({ _id: this.tenancyId });
+  },
+  guarantor: function(){
+    return Contacts.findOne({_id: this.guarantorId});
+  },
+  allAssessmentsComplete: function(){
+    if(this.assessment && this.assessment.bgCheck && this.assessment.income && this.assessment.reference){
+      return true;
+    }
+    else{
+      return false;
+    }
+  }
+});
+</pre>
+<p>So in the template you can do</p>
+<pre>{\{#with contact}}
+<p>guarantor name: guarantor.name</p>
+{\{/with}}
+</pre>
+<p>Notice you don't have to use () accessing transform properties in handlebars</p>
 </template>
