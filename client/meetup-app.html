@@ -11,39 +11,54 @@
 </template>
 
 <template name="pageLayout">
+
 <div id="wrap">
- <div id="wrapperHeader">
-  <div id="header">
+  <div id="wrapperHeader">
+    <div id="header">
                   
       <!--<img src="images/meteorlabel.gif" alt="logo"/> -->
       <h1 id="greets">HEY Meteor Pals!</h1>
-  </div>
 </div>
+  </div>
 
     <hr id="fancy">
-   <div class="container">
+<div class="container">
    
-      <p class="col-md-12"><h4></h4> </P>
-      {{> yield}}
+    <p class="clear col-md-12"><h4></h4> </P>
+    {{> yield}}
 
-    </div>
+</div>
+  <div class="slideChange">
     {{#unless isAtFirstSlide}}
-    <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
+    <div class="pull-left">
+      <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide">
+    
+    </div>
     {{/unless}}
     {{#unless isAtLastSlide}}
-    <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
+    <div class="pull-right">
+    <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide">
+    </div>
+
     {{/unless}}
+ 
+  </div>
 
-    </div>
-
-    <!-- <div id="footer">
-      <div id ="footertext">
-        <h4 class="foot col-md-12">Stuff</h4>
-        <p class="col-md-12"><h5> Clarrrisssa's foooter
-          babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear babybear</h5>
+<div id="footer">
+  <div id="footerTopBar">
+        <h1 id="footTopBar">Meteor Dallas</h1>
+</div>
+  <div id ="footertext">
+        <h4 class="col-md-12">Stuff</h4>
+        <p class="col-md-12">
+          <h5> Clarrrisssa's foooter</h5>
         </p>
-    </div>
-  </div> -->
+  </div>
+  </div> 
+
+</div>
+      
+  
 
 </template>
 
