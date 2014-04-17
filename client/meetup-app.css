@@ -40,7 +40,7 @@ div#wrapperHeader div#header img{
     background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
-  
+ 
 }
 #footertext{
 	width: 1000px;
@@ -53,22 +53,23 @@ div#wrapperHeader div#header img{
 #footerTopBar{
 	height:40px;
 	width:100%;
-	background-color:#3276B1;
+	background-color:#08083A;
 	
 
 }
 #footTopBar{
 	margin-top:0;
-	padding-top: 5px;	
+	padding: 1px;	
 }
 .slideChange{
 	margin-bottom:130px;
 }
 #footer{
-	height: 50px;
+	height: 40px;
 	width: 100%;
+	color: #999998;
 	background:
-	 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#357ebd), to(#3276B1));
+	 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#323A67), to(#254FA6));
 	background:
 	 -moz-linear-gradient(top, #3276B1 0%, #357ebd 100%);
 	margin-right: auto;
@@ -95,8 +96,6 @@ div#wrapperHeader div#header img{
 	margin-top: -1px;
 
 }
-
-
 #nextPage{
 	width: 40px;
 	height: 40px;
