@@ -43,7 +43,7 @@ div#wrapperHeader div#header img{
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
  
 }
-#footertext{
+#.footertext{
 	width: 1000px;
 	height: 250px;
 	margin-right: auto;
@@ -56,14 +56,13 @@ div#wrapperHeader div#header img{
 	background-color:#08083A;
 }
 #footTopBar{
-	margin-top:0;
-	padding: 5px;	
+	margin-top:0;	
 	background-color:#000033;
 	height:66px;
 }
 #footTopBar{
 	margin-top:0;
-	padding:12px;
+	padding:5px;
 	color: #999998;
 
 }
@@ -71,8 +70,7 @@ div#wrapperHeader div#header img{
 	margin-bottom:130px;
 }
 #footer{
-	height: 40px;
-	height: 62px;
+	height: 45px;
 	width: 100%;
 	color: #999998;
 	background:
@@ -91,7 +89,7 @@ div#wrapperHeader div#header img{
 	transition: all 500ms ease;
 }
 #footer:hover{
-	height:200px;
+	height:250px;
 	width:100%;
 }
 #greets{
