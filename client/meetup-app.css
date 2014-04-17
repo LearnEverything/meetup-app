@@ -43,7 +43,7 @@ div#wrapperHeader div#header img{
     background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
  
 }
-#.footertext{
+#footertext{
 	width: 1000px;
 	height: 250px;
 	margin-right: auto;
@@ -62,7 +62,7 @@ div#wrapperHeader div#header img{
 }
 #footTopBar{
 	margin-top:0;
-	padding:5px;
+	padding:12px;
 	color: #999998;
 
 }
@@ -70,7 +70,7 @@ div#wrapperHeader div#header img{
 	margin-bottom:130px;
 }
 #footer{
-	height: 45px;
+	height: 60px;
 	width: 100%;
 	color: #999998;
 	background:
