@@ -29,7 +29,7 @@ div#wrapperHeader div#header img{
 	margin:0 auto;
 }
 #header{
-	padding-top: 115px;
+	padding-top: 95px;
 }
 
 #fancy{
@@ -51,8 +51,8 @@ div#wrapperHeader div#header img{
 
 }
 #footerTopBar{
-	height:40px;
 	width:100%;
+<<<<<<< HEAD
 	background-color:#08083A;
 	
 
@@ -60,12 +60,25 @@ div#wrapperHeader div#header img{
 #footTopBar{
 	margin-top:0;
 	padding: 1px;	
+
+	background-color:#000033;
+	height:65px;
+}
+#footTopBar{
+	margin-top:0;
+	padding:12px;
+	color: #999998;
+
 }
 .slideChange{
 	margin-bottom:130px;
 }
 #footer{
+<<<<<<< HEAD
 	height: 40px;
+=======
+	height: 62px;
+>>>>>>> f548c3e24a7990d65b3a90399c5e70ade891f855
 	width: 100%;
 	color: #999998;
 	background:
@@ -94,7 +107,7 @@ div#wrapperHeader div#header img{
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: -1px;
-
+	padding:10px;
 }
 #nextPage{
 	width: 40px;
