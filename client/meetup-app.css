@@ -7,10 +7,10 @@
 }
 #wrap{
 	min-width: 600px;
+	text-align: center;
 }
 div#wrapperHeader {
 	background: url(images/mets.png) repeat top center;
-	text-align: center;
 	margin-bottom: 60px;
 
 }
@@ -31,7 +31,7 @@ div#wrapperHeader div#header img{
 
 #fancy{
  		border: 0;
-    height: 2px;
+    height: 3px;
     background: #333;
     background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
     background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
@@ -44,7 +44,6 @@ div#wrapperHeader div#header img{
 	height: 250px;
 	margin-right: auto;
 	margin-left: auto;
-		
 	position: relative;
 
 }
@@ -55,12 +54,11 @@ div#wrapperHeader div#header img{
 
 }
 #footTopBar{
-		margin-top:0;
+		margin-top:0;		
 }
 #footer{
 	height: 55px;
 	width: 100%;
-	
 	background:
 	 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#357ebd), to(#3276B1));
 	background:
@@ -79,9 +77,6 @@ div#wrapperHeader div#header img{
 #footer:hover{
 	height:200px;
 	width:100%;
-	margin-right: auto;
-	margin-left: auto;
-
 }
 #greets{
 	color: white;

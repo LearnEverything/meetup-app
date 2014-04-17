@@ -27,6 +27,7 @@
       {{> yield}}
 
     </div>
+    <div class="col-md-12">
     {{#unless isAtFirstSlide}}
     <div id="backPage">
     <button class="btn btn-primary" data-action="previousSlide">Previous slide</button>
@@ -36,16 +37,17 @@
     <div id="nextPage">
     <button class="btn btn-primary" data-action="nextSlide">Next slide</button>
     </div>
+ 
     {{/unless}}
-
+ </div>
    
 
     <div id="footer">
       <div id="footerTopBar">
-        <h1 id="footTopBar col-md-12">Cool top bar</h1>
+        <h1 id="footTopBar">Cool top bar</h1>
       </div>
       <div id ="footertext">
-        <h4 class="foot col-md-12">Stuff</h4>
+        <h4 class="col-md-12">Stuff</h4>
         <p class="col-md-12"><h5> Clarrrisssa's foooter
           </h5>
         </p>
