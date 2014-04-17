@@ -4,10 +4,13 @@
 	margin-left:auto;
 	margin-right: auto;
 	padding-top: 50px;
+
 }
 #wrap{
 	min-width: 600px;
 	text-align: center;
+	overflow-y: scroll;
+
 }
 div#wrapperHeader {
 	background: url(images/mets.png) repeat top center;
@@ -51,6 +54,7 @@ div#wrapperHeader div#header img{
 	height:55px;
 	width:100%;
 	background-color:#3276B1;
+	padding-top: 5px;
 
 }
 #footTopBar{
@@ -86,4 +90,40 @@ div#wrapperHeader div#header img{
 	margin-right: auto;
 	margin-top: -1px;
 
+}
+#nextPage:hover{
+ 	background-image: url(images/next1.png);
+ 	width: 40px;
+	height: 40px;
+}
+#nextPage{
+	width: 40px;
+	height: 40px;
+
+
+}
+#backPage:hover{
+ 	background-image: url(images/back1.png);
+ 	width: 40px;
+	height: 40px;
+
+}
+#backPage{
+	width: 40px;
+	height: 40px;
+	
+}
+.theButton{
+
+
+}
+.pull-right{
+padding-right: 250px;
+margin-bottom:15px;
+margin-top: 15px;
+}
+.pull-left{
+padding-left: 250px;
+margin-bottom:15px;
+margin-top: 15px;
 }

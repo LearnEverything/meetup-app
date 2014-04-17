@@ -24,23 +24,20 @@
     <hr id="fancy">
 <div class="container">
    
-    <p class="col-md-12"><h4></h4> </P>
+    <p class="clear col-md-12"><h4></h4> </P>
     {{> yield}}
 
 </div>
-  <div class="col-md-12">
+  <div class="button">
     {{#unless isAtFirstSlide}}
-   <div id="backPage">
+    <div class="pull-left">
+      <img id="backPage" src="images/back.png" alt="Prev" data-action="previousSlide">
     
-    <button type="button" class="btn btn-primary" a href="back2.png" data-action="previousSlide"></button>
-
-    <!--<a class="btn btn-primary" button href="images/back1.png" data-action="previousSlide"></a>-->
     </div>
     {{/unless}}
     {{#unless isAtLastSlide}}
-    <div id="nextPage">
-
-    <button type="button" class="btn btn-primary" a href="next2.png" data-action="nextSlide"></button>
+    <div class="pull-right">
+    <img id="nextPage"  src="images/next.png" alt="Next" data-action="nextSlide">
     </div>
 
     {{/unless}}
