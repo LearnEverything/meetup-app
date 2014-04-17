@@ -3,8 +3,9 @@
 	width: 75%;
 	margin-left:auto;
 	margin-right: auto;
-	padding-top: 50px;
-
+}
+.container pre{
+	text-align: left;
 }
 #wrap{
 	min-width: 600px;
