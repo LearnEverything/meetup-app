@@ -1,4 +1,19 @@
 <template name = "slide7">
 	<h1>Iron-Router</h1>
-	<p>mapping, etc</p>
+	<pre style="text-align:left;">
+Router.map(function(){
+  this.route('home', {
+    layoutTemplate: 'pageLayout',
+    template: 'home', 
+    path: '/'
+  });
+  this.route('slide', {
+    layoutTemplate: 'pageLayout',
+    path: "/slide/:num",
+    action: function(){
+      this.render("slide" + this.params.num)
+    }
+  });
+});
+</pre>
 </template>
