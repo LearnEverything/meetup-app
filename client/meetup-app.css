@@ -9,7 +9,7 @@
 #wrap{
 	min-width: 600px;
 	text-align: center;
-	overflow-y: scroll;
+	margin-bottom: 15px;
 
 }
 div#wrapperHeader {
@@ -51,17 +51,21 @@ div#wrapperHeader div#header img{
 
 }
 #footerTopBar{
-	height:55px;
+	height:40px;
 	width:100%;
 	background-color:#3276B1;
-	padding-top: 5px;
+	
 
 }
 #footTopBar{
-		margin-top:0;		
+	margin-top:0;
+	padding-top: 5px;	
+}
+.slideChange{
+	margin-bottom:130px;
 }
 #footer{
-	height: 55px;
+	height: 50px;
 	width: 100%;
 	background:
 	 -webkit-gradient(linear, 0% 0%, 0% 100%, from(#357ebd), to(#3276B1));
@@ -91,23 +95,14 @@ div#wrapperHeader div#header img{
 	margin-top: -1px;
 
 }
-#nextPage:hover{
- 	background-image: url(images/next1.png);
- 	width: 40px;
-	height: 40px;
-}
+
+
 #nextPage{
 	width: 40px;
 	height: 40px;
 
-
 }
-#backPage:hover{
- 	background-image: url(images/back1.png);
- 	width: 40px;
-	height: 40px;
 
-}
 #backPage{
 	width: 40px;
 	height: 40px;
