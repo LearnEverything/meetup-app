@@ -4,7 +4,7 @@
 
 <template name="home">
   <div>
-  	<h3>Welcome to the Dallas Meteor Introduction Part 2</h3>
+    <h3>Welcome to the Dallas Meteor Introduction Part 2</h3>
     <p>Meeting once a month at TradeStation Technologies</p>
     <p>Todays speaker is Adam Love</p>
     <h4><a href="/slide/0">Go to first slide!</a></h4>
@@ -13,18 +13,37 @@
 
 <template name="pageLayout">
 
-  <div id="wrap">
-    <div id="wrapperHeader">
-      <div id="header">
+<div id="wrap">
+  <div id="wrapperHeader">
+    <div id="header">
                   
-        <h1 id="greets">Getting off the Ground With Meteor</h1>
+      <!--<img src="images/meteorlabel.gif" alt="logo"/> -->
+      <h1 id="greets">Getting off the Ground With Meteor</h1>
+</div>
   </div>
+
+<div class="container">
+   
+    <p class="clear col-md-12"><h4></h4> </P>
+    {{> yield}}
+
+</div>
+  <div class="slideChange">
+    {{#unless isAtFirstSlide}}
+    <div class="pull-left">
+      <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide">
+    
+    </div>
+    {{/unless}}
+    {{#unless isAtLastSlide}}
+    <div class="pull-right">
+    <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide">
     </div>
 
-  <div class="container">
+    {{/unless}}
+ 
+  </div>
 
-      <p class="clear col-md-12"><h4></h4></p>
-      {{> yield}}
 <div id="footer">
   <div id="footerTopBar">
         <h1 id="footTopBar">Meteor Dallas</h1>
@@ -35,37 +54,10 @@
         <p class=""> foot</p>
   </div>
   </div> 
-
-  </div>
-    <div class="slideChange">
-      {{#unless isAtFirstSlide}}
-      <div class="pull-left">
-        <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide">
-      
-      </div>
-      {{/unless}}
-      {{#unless isAtLastSlide}}
-      <div class="pull-right">
-      <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide">
-      </div>
 </div>
 </div>
 
-      {{/unless}}
-   
-    </div>
-  <div id="footer">
-    <div id="footerTopBar">
-          <h1 id="footTopBar">Meteor Dallas</h1>
-  </div>
-    <div id ="footertext">
-          <h4 class="col-md-12">Stuff</h4>
-          <p class="col-md-12">
-            <h5> Clarrrisssa's foooter</h5>
-          </p>
-    </div>
-    </div> 
-  </div>
+
 </template>
 
 <template name="slide">
