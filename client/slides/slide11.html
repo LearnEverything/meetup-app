@@ -1,3 +1,21 @@
 <template name = "slide11">
-<h1> Tips for massaging data for spacebars templates </h1>
+<h1>Using helpers vs Iron-router data-context </h1>
+<p>Iron Router Data: </p>
+<pre>data: function() {
+    var self = this;
+    return  _.extend({
+      properties: function(){
+        return Properties.find({})
+      },
+      activity: function(){
+        return Activity.find({},{sort:{date:-1}})
+      },
+      transactions: function(){
+        return Transactions.find({})
+      }
+    }, allController.data());
+  }
+</pre>
+<p>Handlebars</p>
+<p>Use a map on the helpers to get index to help display some dynamic elemnts from other packages.</p>
 </template>
