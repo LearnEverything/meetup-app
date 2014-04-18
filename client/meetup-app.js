@@ -1,4 +1,4 @@
-var maxSlide = 18;
+var maxSlide = 16;
 
 Template.pageLayout.events({
   "click [data-action = 'nextSlide']" : function(e, t){
