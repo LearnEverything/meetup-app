@@ -24,10 +24,3 @@ Template.pageLayout.events({
  }
 })
 
-Template.pageLayout.isAtLastSlide = function(){
-  return maxSlide === +Router.current().params.num;
-}
-
-Template.pageLayout.isAtFirstSlide = function(){
-  return 0 === +Router.current().params.num;
-}

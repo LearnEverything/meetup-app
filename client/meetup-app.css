@@ -1,6 +1,4 @@
-body{
-	background-image: url(/images/handmadepaper.png);
-}
+
 .container{
 	width: 75%;
 	margin-left:auto;
@@ -126,3 +124,17 @@ padding-left: 250px;
 margin-bottom:15px;
 margin-top: 15px;
 }
+
+
+#carousel-example-generic .left{
+  background-image: none;
+  margin-left: -45px;
+}
+#carousel-example-generic .right{
+  background-image: none;
+  margin-right: -45px;
+}
+#ci{
+  bottom: -15px;
+}
+  

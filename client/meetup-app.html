@@ -48,18 +48,58 @@
   <div id="footerTopBar">
         <h1 id="footTopBar">Meteor Dallas</h1>
 </div>
-<div class="col-sm-6 col-md-3">
-  <div class ="footertext">
-        <h4 class="">Stuff</h4>
-        <p class=""> foot</p>
+ <div class="container">
+    {{> carousel}}
   </div>
-  </div> 
-</div>
-</div>
-
-
+    </div> 
+      </div>
 </template>
 
+<template name="carousel">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  
+  <ol id="ci" class="carousel-indicators">
+    
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5" class="active"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  
+  <div class="carousel-inner">
+    
+    <div class="item">
+      <p>Slides here</p>
+
+    </div>
+      <div class="item">
+      <p>Slides here</p>
+      
+    </div>
+      <div class="item">
+      <p>Slides here</p>
+      
+    </div>
+    
+  </div>
+  
+  
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+</template>
 <template name="slide">
   <div>
 <p>hi</p>
