@@ -59,11 +59,11 @@ div#wrapperHeader div#header img{
 #footTopBar{
 	margin-top:0;	
 	background-color:#000033;
-	height:66px;
+	height:45px;
 }
 #footTopBar{
 	margin-top:0;
-	padding:12px;
+	padding:2px;
 	color: #999998;
 
 }
@@ -71,7 +71,7 @@ div#wrapperHeader div#header img{
 	margin-bottom:130px;
 }
 #footer{
-	height: 60px;
+	height: 40px;
 	width: 100%;
 	color: #999998;
 	background:
