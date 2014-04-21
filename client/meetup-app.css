@@ -1,18 +1,19 @@
+body{
+	background: url(/images/handmadepaper.png);
+}
 
-.container{
+.container {
 	width: 75%;
 	margin-left:auto;
 	margin-right: auto;
 }
-.container pre{
+.container pre {
 	text-align: left;
 }
-#wrap{
+#wrap {
 	min-width: 600px;
 	text-align: center;
 	margin-bottom: 15px;
-	background: url(/images/handmadepaper.png);
-
 }
 div#wrapperHeader {
 	background: url(images/mets.png) repeat top center;
@@ -25,37 +26,38 @@ div#wrapperHeader div#header {
 	margin: 0 auto;
 	
 }
-div#wrapperHeader div#header img{
+div#wrapperHeader div#header img {
 	width: 1000px;
 	height: 280px;
 	margin:0 auto;
 }
-#header{
+#header {
 	padding-top: 95px;
 }
-.footertext{
+.footertext {
 	width: 1000px;
 	height: 250px;
 	margin-right: auto;
 	margin-left: auto;
-	position: relative;
 }
-#footerTopBar{
+#footerTopBar {
 	width:100%;
 	background-color:#08083A;
 }
-#footTopBar{
+#footTopBar {
 	margin-top:0;	
 	background-color:#000033;
 	height:45px;
 }
-#footTopBar{
+#footTopBar {
 	margin-top:0;
 	padding:1px;
 	color: #999998;
 }
-.slideChange{
+.slideChange {
 	margin-bottom:130px;
+	position: relative;
+
 }
 #footer{
 	height: 40px;
@@ -76,11 +78,11 @@ div#wrapperHeader div#header img{
 	-o-transition: all 500ms ease;
 	transition: all 500ms ease;
 }
-#footer:hover{
+#footer:hover {
 	height:250px;
 	width:100%;
 }
-#greets{
+#greets {
 	color: white;
 	background-color: black;
 	width: 420px;
@@ -97,19 +99,17 @@ div#wrapperHeader div#header img{
 	width: 40px;
 	height: 40px;	
 }
-.pull-right{
+.right-p {
 padding-right: 250px;
 margin-bottom:15px;
 margin-top: 15px;
 }
-.pull-left{
+.left-p {
 padding-left: 250px;
 margin-bottom:15px;
 margin-top: 15px;
 }
-
-
-#carousel-example-generic .left{
+#carousel-example-generic .left {
   background-image: none;
   margin-left: 45px;
   margin-top: 100px;
