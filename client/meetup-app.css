@@ -11,7 +11,7 @@
 	min-width: 600px;
 	text-align: center;
 	margin-bottom: 15px;
-	background-image: url(/images/handmadepaper.png);
+	background: url(/images/handmadepaper.png);
 
 }
 div#wrapperHeader {
@@ -33,24 +33,12 @@ div#wrapperHeader div#header img{
 #header{
 	padding-top: 95px;
 }
-
-#fancy{
- 		border: 0;
-    height: 3px;
-    background: #333;
-    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
-    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
- 
-}
 .footertext{
 	width: 1000px;
 	height: 250px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-
 }
 #footerTopBar{
 	width:100%;
@@ -63,9 +51,8 @@ div#wrapperHeader div#header img{
 }
 #footTopBar{
 	margin-top:0;
-	padding:2px;
+	padding:1px;
 	color: #999998;
-
 }
 .slideChange{
 	margin-bottom:130px;
@@ -105,15 +92,11 @@ div#wrapperHeader div#header img{
 #nextPage{
 	width: 40px;
 	height: 40px;
-
 }
-
 #backPage{
 	width: 40px;
-	height: 40px;
-	
+	height: 40px;	
 }
-
 .pull-right{
 padding-right: 250px;
 margin-bottom:15px;
@@ -128,13 +111,25 @@ margin-top: 15px;
 
 #carousel-example-generic .left{
   background-image: none;
-  margin-left: -45px;
+  margin-left: 45px;
+  margin-top: 100px;
 }
 #carousel-example-generic .right{
   background-image: none;
-  margin-right: -45px;
+  margin-right: 45px;
+  margin-top: 100px;
 }
 #ci{
-  bottom: -15px;
+  top: 150px;
 }
-  
+.carousel-slide{
+	position: relative;
+}
+  #nextP{
+	width: 40px;
+	height: 40px;
+}
+#backP{
+	width: 40px;
+	height: 40px;	
+}
