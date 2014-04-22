@@ -22,13 +22,17 @@
     </div>
     <div class="container">
       <p class="clear col-md-12"></P>
-      {{> yield}} </div>
+      {{> yield}} 
+    </div>
     <div class="slideChange"> {{#unless isAtFirstSlide}}
-      <div class="pull-left left-p"> <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide"> </div>
+      <div class="pull-left left-p"> <img id="backPage" src="/images/back1.png" alt="Prev" data-action="previousSlide"> 
+      </div>
       {{/unless}}
       {{#unless isAtLastSlide}}
-      <div class="pull-right right-p"> <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide"> </div>
-      {{/unless}} </div>
+      <div class="pull-right right-p"> <img id="nextPage"  src="/images/next1.png" alt="Next" data-action="nextSlide"> 
+      </div>
+      {{/unless}} 
+    </div>
     <div id="footer">
       <div id="footerTopBar">
         <h1 id="footTopBar">Meteor Dallas</h1>
@@ -43,17 +47,18 @@
     <!-- Indicators -->
     
     <ol id="ci" class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="0" 
+      class="active"></li>
       <li data-target="#carousel-example-generic" data-slide-to="1"></li>
       <li data-target="#carousel-example-generic" data-slide-to="2"></li>
       <li data-target="#carousel-example-generic" data-slide-to="3"></li>
       <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+
     </ol>
 
-    
-    <div class="carousel-inner">
+    <div class="carousel-inner innerCarousel">
       <div class="item active">
+
         <div class="col-md-3">
           <h3>Slide 1</h3>
         </div>
@@ -95,6 +100,37 @@
           <h3>Slide 12</h3>
         </div>
       </div>
+
+      <div class="item">
+        <div class="col-md-3">
+          <h3>Slide 13</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>SLide 14</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Slide 15</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Slide 16</h3>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="col-md-3">
+          <h3>Slide 17</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>SLide 18</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Slide 19</h3>
+        </div>
+        <div class="col-md-3">
+          <h3>Slide 20</h3>
+        </div>
+      </div>
+
     </div>
   </div>
   
